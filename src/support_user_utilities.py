@@ -109,8 +109,7 @@ if __name__ == "__main__":
 
     get_project_list()
     get_users_list()
-    p = get_project_by_owner_and_name('user1','test')
-    u = get_user_by_name('user1')
+
 
     action = sys.argv[1]
     if action == 'add_collab':
